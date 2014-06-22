@@ -1,8 +1,7 @@
 KanjiMaestro
-============
 
+Title Page
 KanjiMaestro: A overly confident maestro(teacher) queries you with countless exercises in a way that you can choose the correct option. As the game advances one needs solve the kanji matching in different mini-games.
-
 
 Executive Summary
 •	Is a 2D mini-game compilation with a main teacher figure as the guide of the game. It allows top down view of a dragon that catches matching kanjis bestowing special abilities indicated by the meaning of the kanji itself.
@@ -36,6 +35,7 @@ Hooks
 •	Kanji learning made fun with visual clues and interactive environments
 •	Concepts that match kanjis through animations images or power-ups.  Gameplay is directly related to kanji meaning.
 •	8-bit elements like talking is 8-bit babbling, and special effects may be as simple as fade into pixelated images.
+•	(Optional) procedurally generated exercises, this would allow NPCs to use markov chains to learn kanji meanings. Very ambitious, because it would use also NLP(Natural Language Processing.)
 
 License
 
@@ -44,21 +44,19 @@ License will be closed and will be sold as a commercial product, probably in the
 Gameplay Highlights
 
 
-•	Many animations for Maestro(the guide, tutor and questioneer) and the dragon, enemies and nemesis.
-•	Many backgrounds perhaps with patterns for the word matching section. For the dragon levels, varied scenarios with ice, fire, natural and metalic and high teck themes.
-•	Nemesis AI will use A* pathfinding for reaching to what it believes(though perhaps machine learning) to be the correct matching kanji.
+•	Nemesis AI will use A* pathfinding for reaching to what it believes(through perhaps machine learning) to be the correct matching kanji.
 •	Other NPCs will probably use scripted movements and actions based on finite state machines.
 	
 
 
 Online Highlights
-The game will probably only feature score boards upload
+•	The game will probably only feature score boards upload
 •	Score after finishing a session of a game can be uploadad to official website's world score board.
 •	If time allows, perhaps the game could be played against another player by punishing the opponent when he/she looses with items gained in the process of kanji matching or searching(kanjiDragon game).
 
 Technology Highlights
 
-•	Simple but effective 2D texture effects that allow the player to fill hyped about winning or punished by loosing.
+•	Simple but effective 2D texture effects that allow the player to feel hyped about winning or punished by loosing.
 
 •	A* pathfinding, finite state machines and machine learning(markov chains) are 
 used throughout the game for enhancing gameplay, NPCs and scoring behaviour.
@@ -66,8 +64,10 @@ used throughout the game for enhancing gameplay, NPCs and scoring behaviour.
 
 Art and Audio Highlights
 
+•	Many animations for Maestro(the guide, tutor and questioner) and the dragon, enemies and nemesis.
+•	Many backgrounds perhaps with patterns for the word matching section. For the dragon levels, varied scenarios with ice, fire, natural and metalic and high teck themes.
 •	Audio is clear and consise, perhaps some voice acting by myself and other voice actors for il maestro and dragon gestures.
-•	Animations are made in 3D and rendered in 2D so as to use sprites. Smooth animations with colourful characters and items.
+•	Animations are made in 3D or 2D animation tools and rendered in 2D so as to use sprites. Smooth animations with colourful characters and items.
 •	Music is tender and lobby-like. Lounge songs for the Kanji matching games, and adventure/epic tale style themes for the dragon mini-game.
 
 
@@ -77,7 +77,7 @@ Hardware
 •	Minimal specs are: 1GB of RAM, ATI or Nvidia Graphics card with 128MB of RAM and 1.2Ghz processor.
 
 Production Details
-It will be just me and Kevin Josue Cruz for now, both on Graphics and programming. Furthermore, I will develop sound effects and musical score.
+It will be just me and Kevin Josue Cruz for now, both on graphics and programming. Furthermore, I will develop sound effects and musical score.
 
 Current Status
 We start at zero, with DirectX9 as the rendering engine.The proof of concept will be ready as soon as we develop the prototype, the minimal features will be shown-off. 
@@ -100,7 +100,8 @@ Market competition
 No competition whatsoever. Kanji games tend to be simple matching games without adventure and minigame elements. Most of them are also web based, which limits the graphical performance capabilites.
 
 Game World
-In the last major section in the document, you can include anything else that’s likely to get your reader fired up about the product. You’ve already discussed the gameplay, technology, and general features of the game, so this is the time to include background material that draws the reader deeper into your world.
+The main screen should be prestended by Il maestro. A small introduction tutorial on the different
+features should be the starting point.
 
 Backstory
 Il Maestro is just a guy trying to teach you Kanji, however he realizes that in order to motivate you to improve, he grants score points to allow to buy other challanges(mini-games).
@@ -111,11 +112,7 @@ Finish as much challenges that il maestro poses, as well as acquire new levels, 
 
 Characters
 Il maestro: The main guide, that allows the player to understand the underlying mechanics of the varying mini-games
-Paul “Mayhem” Jackson
-Psychic ability: Shield. Can project a protective shield around teammates.
-Weapons: Chain gun, grenade launcher. Mayhem is a heavy-weapons expert.
-Armor: Very heavy, which makes him relatively slow-moving.
-Personality: Angry and ruthless over some event in his past.
+
 Mission or Story Progression
-Lay out the game’s narrative arc as far as you know it. Document the twists and turns that the story might take, and indicate the way in which the player’s success or failure will affect her progress through the game. For example, if the story is linear and the player must accomplish each scenario in order to proceed, say so; if it is branching, say that and explain how the player goes down one branch or another. Don’t write a novel—this isn’t the design script—but rather provide an outline for a novel, listing the key events in the plot.
 The player starts as a complete beginner knowing perhaps nothing at all. Il maestro would query the player for the difficulty: Novice, beginner, intermediate and advanced. Some incomplete hiragana and katakana phrases would be posed, and the blank line would be expected to be filled with the corrisponding kanji. More advanced exercises would contain more advanced grammar and major usage of kanji.
+
