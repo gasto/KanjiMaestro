@@ -69,6 +69,18 @@ Art and Audio Highlights
 •	Audio is clear and consise, perhaps some voice acting by myself and other voice actors for il maestro and dragon gestures.
 •	Animations are made in 3D or 2D animation tools and rendered in 2D so as to use sprites. Smooth animations with colourful characters and items.
 •	Music is tender and lobby-like. Lounge songs for the Kanji matching games, and adventure/epic tale style themes for the dragon mini-game.
+•Resolution:
+The game will support various resolutions:
+1920x1080p
+1680x1050
+1024x768
+And all the corrisponding resolutions bellow them following their ratios:
+16:9
+8:5
+4:3
+
+Resolutions need to be thought out since most of it will be sprite based, and the majority of monitors are of the aforementioned ratios.
+
 
 
 Hardware
