@@ -1,7 +1,6 @@
 KanjiMaestro
 
-Title Page
-KanjiMaestro: A overly confident maestro(teacher) queries you with countless exercises in a way that you can choose the correct option. As the game advances one needs solve the kanji matching in different mini-games.
+KanjiMaestro: An overly confident maestro(teacher) queries the player with countless exercises in a way that you can choose the correct option. As the game advances one needs to solve the kanji matching in different mini-games. The game would feature learning paths and frequency optimization depending on artificial intelligence’s designation.
 
 Executive Summary
 •	Is a 2D mini-game compilation with a main teacher figure as the guide of the game. It allows top down view of a dragon that catches matching kanjis bestowing special abilities indicated by the meaning of the kanji itself.
